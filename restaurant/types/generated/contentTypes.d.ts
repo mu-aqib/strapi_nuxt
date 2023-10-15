@@ -737,6 +737,7 @@ export interface ApiRestaurantRestaurant extends Schema.CollectionType {
       'manyToMany',
       'api::category.category'
     >;
+    avgPrice: Attribute.Integer;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
